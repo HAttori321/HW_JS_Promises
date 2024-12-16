@@ -1,0 +1,42 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #f9f9f9; 
+}
+h1 {
+    text-align: center; 
+    color: #333; 
+}
+.container { 
+    display: flex; 
+    justify-content: space-around; 
+    gap: 20px; 
+}
+.users, .todos { 
+    width: 45%; 
+    padding: 15px; 
+    background: #fff; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+ul { 
+    list-style-type: none; 
+    padding: 0; 
+}
+li {
+    padding: 8px 10px;
+    margin: 5px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+li:hover { 
+    background-color: #f0f0f0; 
+}
+.todos li { 
+    background-color: #e7f4e4; 
+}
+.completed { 
+    text-decoration: line-through; 
+    color: green; 
+}
